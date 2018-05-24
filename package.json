@@ -1,0 +1,39 @@
+{
+  "name": "@devtanc/fillit",
+  "version": "1.0.0",
+  "description": "A library for filling templates based on key-value pairs",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "precommit": "lint-staged",
+    "lint": "xo",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "keywords": ["template"],
+  "lint-staged": {
+    "*.js": ["npm run lint:fix --", "git add"],
+    "*.{js,css,md}": ["prettier --write", "git add"],
+    "*.json": ["prettier --write --print-width=120", "git add"]
+  },
+  "xo": {
+    "prettier": true,
+    "env": ["node", "mocha"],
+    "plugins": ["node", "unicorn"]
+  },
+  "author": "devtanc",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devtanc/fillit"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^7.1.2",
+    "mocha": "^5.2.0",
+    "prettier": "^1.12.1",
+    "xo": "^0.21.1"
+  }
+}
