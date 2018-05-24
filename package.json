@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha",
+    "test": "mocha --reporter=xunit --reporter-options output=test/results/mocha/results.xml",
     "precommit": "lint-staged",
     "lint": "xo",
     "lint:fix": "npm run lint -- --fix"
