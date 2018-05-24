@@ -2,9 +2,9 @@
 
 The fillit library allows you to create template files, read them into a class, and replace keys throughout the file by specifying key-value pairs to replace.
 
-![npm (scoped)](https://img.shields.io/npm/v/@devtanc/fillit.svg)
-![CircleCI](https://img.shields.io/circleci/project/github/devtanc/fillit.svg)
-![GitHub issues](https://img.shields.io/github/issues/devtanc/fillit.svg)
+[![npm (scoped)](https://img.shields.io/npm/v/@devtanc/fillit.svg)](https://www.npmjs.com/package/@devtanc/fillit)
+[![CircleCI](https://img.shields.io/circleci/project/github/devtanc/fillit.svg)](https://circleci.com/gh/devtanc/fillit)
+[![GitHub issues](https://img.shields.io/github/issues/devtanc/fillit.svg)](https://github.com/devtanc/fillit/issues)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 
